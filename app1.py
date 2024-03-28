@@ -33,7 +33,7 @@ def process_text(text):
 
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
-st.title('SpamShield')
+st.title('Spam')
 st.caption('The SMS Sentry')
 
 
